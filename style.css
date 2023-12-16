@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.top-menu {
+    margin: 44px 0 144px 76px;
+
+}
+
+.top-menu a {
+    text-decoration: none;
+    margin-left: 23px;
+    color: #989D9C;
+    font-weight: 600;
+}
+
+.top-menu a:hover{
+    text-decoration: underline;
+    color: #515151;
+    transition-duration: 0.5s;
+}
+
+.top-menu button {
+    color: #FFF;
+    background-color: #665AE1;
+    width: 130px;
+    height: 41px;
+    margin-left: 23px;
+    border-radius: 50px;
+    border: transparent;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.top-menu button:hover{
+    background-color: #515151;
+    transition-duration: 0.5s;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+
+.artigo {
+    display: inline-block;
+    margin-left: 86px;
+
+
+}
+
+.artigo h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+
+}
+
+.artigo h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+
+
+}
+
+.artigo p {
+    color: #848484;
+    font-weight: 400;
+    width: 515px;
+    height: 87px;
+    margin-top: 32px;
+}
+
+.artigo button {
+    width: 239px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-top: 65px;
+    border-radius: 50px;
+    background: #ADFF00;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    border: transparent;
+    cursor: pointer;
+
+}
+.artigo button:hover{
+    background-color: #515151;
+    color: #FFF;
+        transition-duration: 0.5s;
+}
